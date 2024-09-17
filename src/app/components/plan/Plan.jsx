@@ -4,8 +4,8 @@ import { StudentPlan } from "./StudentPlan";
 
 export const Plan = () => {
   return (
-    <div className="w-full min-h-screen">
-      <div className="container mx-auto">
+    <div className="w-full ">
+      <div className="container pt-32 mx-auto">
         <div className="flex justify-center">
           <div className="flex justify-center  pb-20 flex-col">
             <p className="flex justify-center text-3xl">Choose Your Plan</p>

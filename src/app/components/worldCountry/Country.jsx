@@ -1,3 +1,5 @@
+import { Platform } from "../BigPlatforms/Platform";
+
 export const Country = () => {
   return (
     <div className="w-full min-h-screen">
@@ -15,6 +17,9 @@ export const Country = () => {
         </div>
         <div className="flex ">
           <img src="/global.png" alt="" />
+        </div>
+        <div className="pt-40">
+          <Platform />
         </div>
       </div>
     </div>

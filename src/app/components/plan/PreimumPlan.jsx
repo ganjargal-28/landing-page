@@ -31,7 +31,9 @@ export const PreimumPlan = () => {
           >
             $12 / mo
           </p>
-          <button className="btn btn-outline btn-secondary">Select</button>
+          <button className="btn btn-outline shadow-4xl btn-secondary">
+            Select
+          </button>
         </div>
       </div>
     </div>
