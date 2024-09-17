@@ -1,7 +1,7 @@
 export const Menu = () => {
   return (
-    <div className="w-full ">
-      <div className="container flex items-center justify-center  gap-4 ">
+    <div>
+      <div className="container flex items-center justify-center  gap-8 ">
         <p>about</p>
         <p>feature</p>
         <p>pricing</p>

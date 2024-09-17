@@ -4,9 +4,9 @@ import { SignUp } from "./SignUp";
 
 export const Header = () => {
   return (
-    <div className="w-full h-20 ">
-      <div className="container mx-auto  justify-center items-center flex">
-        <Image src={"/logo.png"} width={300} height={300} />
+    <div className="w-full h-20">
+      <div className="container mx-auto justify-between items-center flex">
+        <Image src={"/logo.png"} width={200} height={200} />
         <Menu />
         <SignUp />
       </div>
