@@ -1,8 +1,7 @@
-"use , client";
 // import { Information } from "../advantage/Information";
 import { Information } from "../advantage/Information";
 import { Platform } from "../BigPlatforms/Platform";
-import Carsual from "../carsual/Carsual";
+import { Carsual } from "../costomers/Carsual";
 
 import { Footer } from "../footer/Footer";
 
