@@ -4,7 +4,7 @@ export const FreePlan = () => {
   return (
     <div className="">
       <div className="container">
-        <div className="min-w-96 min-h-[760px] border flex flex-col rounded-md  items-center gap-10 border-gray-400">
+        <div className="min-w-96 min-h-[760px] border flex flex-col rounded-md cursor-pointer hover:border-red-500 items-center gap-10 border-gray-400">
           <Image src={"/Free.png"} width={200} height={200} />
           <p className="text-3xl">free plan </p>
           <div className="flex flex-col gap-8">

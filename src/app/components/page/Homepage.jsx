@@ -22,7 +22,7 @@ export const Homepage = () => {
       <Plan />
       <Country />
       <Carsual />
-      <Subscribe />
+
       <Footer />
     </div>
   );

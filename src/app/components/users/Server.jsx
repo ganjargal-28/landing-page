@@ -6,9 +6,9 @@ export const Server = () => {
       <div className="containe flex gap-9 mx-auto">
         <Image
           className=" rounded-full bg-red-200"
-          src={"/serve.png"}
+          src={"/Server.png"}
           width={50}
-          height={20}
+          height={10}
         />
         <div>
           <p>50+</p>

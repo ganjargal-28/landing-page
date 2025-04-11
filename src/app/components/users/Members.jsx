@@ -6,7 +6,7 @@ export const Members = () => {
       <div className="containe flex gap-9 mx-auto">
         <Image
           className=" rounded-full bg-red-200"
-          src={"/account.png"}
+          src={"/user@2x.png"}
           width={50}
           height={20}
         />

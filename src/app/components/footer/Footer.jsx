@@ -1,12 +1,14 @@
 import Image from "next/image";
 import { Engage } from "./Engage";
 import { Product } from "./Product";
-import { EarnMoney } from "./earnMoney";
+
+import { Subscribe } from "../subscribe/Subscribe";
+import { EarnMoney } from "./EarnMoney";
 
 export const Footer = () => {
   return (
     <div className="w-full  bg-[#F8F8F8] ">
-      <div className="container pt-80 mx-auto relative">
+      <div className="container mb-14 position:  pt-80 mx-auto relative">
         <div className="flex justify-between">
           <div className="max-w-[300px] flex flex-col gap-6">
             <Image src={"/logo.png"} width={200} height={200} />

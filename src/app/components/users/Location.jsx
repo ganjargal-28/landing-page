@@ -5,7 +5,7 @@ export const Location = () => {
     <div className="">
       <div className="containe flex gap-9 mx-auto">
         <Image
-          className=" rounded-full bg-red-200"
+          className=" rounded-full "
           src={"/location.png"}
           width={50}
           height={20}

@@ -1,15 +1,22 @@
 export const Subscribe = () => {
   return (
-    <div className="w-full">
-      <div className="container   mx-auto">
-        <div className="flex  min-h-30   rounded-xl bg-white justify-around items-center">
-          <div>
-            <p className="text-3xl">Subscribe Now for Get Special Features!</p>
-            <p>Let's subscribe with us and find the fun.</p>
+    <div className="  w-[1200px] min-h-[80px]  cursor-pointer rounded-xl  mx-auto">
+      <div className="flex cursor-pointer  justify-around items-center">
+        <div className="w-[1200px] rounded-2xl cursor-pointer h-36 shadow-2xl bg-[#FFFFFF]">
+          <div className="flex  justify-around items-center p-10">
+            <div>
+              <p className="text-3xl">
+                Subscribe Now for Get Special Features!
+              </p>
+              <p>Let's subscribe with us and find the fun.</p>
+            </div>
+            <button className="btn btn-active w-[250px]  btn-secondary">
+              Subscribe Now
+            </button>
           </div>
-          <button className="btn btn-active  btn-secondary">Secondary</button>
         </div>
       </div>
+      <div></div>
     </div>
   );
 };
