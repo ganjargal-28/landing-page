@@ -1,4 +1,4 @@
-import { CostomersCard } from "../components/costomers/Card";
+import { Card } from "../components/costomers/Card";
 
 const userPage = async () => {
   const data = await fetch("https://randomuser.me/api/?results=20");
@@ -13,8 +13,8 @@ const userPage = async () => {
         <div className="flex   gap-4 flex-wrap ">
           <div className="carousel rounded-box flex flex-col p-9   w-[1200px] h-[900px] flex-wrap  gap-5">
             {user?.results?.map((user) => (
-              <div className="carousel-item  ">
-                <CostomersCard user={user} />
+              <div className="carousel-item">
+                <Card user={user} />
               </div>
             ))}
           </div>

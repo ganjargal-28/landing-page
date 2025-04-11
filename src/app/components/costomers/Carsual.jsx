@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CostomersCard } from "./Card";
+import { Card } from "./Card";
 import { Subscribe } from "../subscribe/Subscribe";
 
 export const Carsual = async () => {
@@ -20,7 +20,7 @@ export const Carsual = async () => {
             {user?.results?.map((user) => (
               <div className="carousel-item">
                 <Link href={"/user"}>
-                  <CostomersCard user={user} />
+                  <Card user={user} />
                 </Link>
               </div>
             ))}

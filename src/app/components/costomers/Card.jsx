@@ -1,20 +1,21 @@
 import { Comments } from "./Comments";
 
-export const CostomersCard = ({ user }) => {
+export const Card = ({ user }) => {
   const { name, location, picture } = user;
-  const star = b / nbMath.floor(Math.random() * 6);
+  const star = Math.floor(Math.random() * 6);
+
   return (
-    <div className=" card bg-base-100 w-96 p-8 h-[230px] hover:shadow-2xl rounded-xl border border-gray-400 hover:border-red-400 ">
+    <div className="card bg-base-100 w-96 p-8 h-[230px] hover:shadow-2xl rounded-xl border border-gray-400 hover:border-red-400">
       <div>
         <div className="flex justify-between gap-5">
-          <img src={picture?.thumbnail} alt="" className="rounded-full" />
+          <img src={picture?.thumbnail} alt="User" className="rounded-full" />
 
           <div>
             <p className="card-title">
               {name?.first} {name?.last}
             </p>
             <p>
-              {location?.city},{location?.country}
+              {location?.city}, {location?.country}
             </p>
           </div>
 
